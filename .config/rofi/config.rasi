@@ -1,0 +1,6 @@
+configuration {               
+	modes: "window,run,ssh,drun";
+	font: "FiraCode 14";
+}
+
+@theme "/usr/share/rofi/themes/DarkBlue.rasi"
