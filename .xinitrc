@@ -1,3 +1,5 @@
 ~/.fehbg &
 
+picom &
+
 exec bspwm
