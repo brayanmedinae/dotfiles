@@ -1,6 +1,6 @@
 configuration {               
 	modes: "window,run,ssh,drun";
-	font: "FiraCode 13";
+	font: "JetBrains Mono 13";
 }
 
 @theme "/usr/share/rofi/themes/DarkBlue.rasi"
