@@ -39,5 +39,5 @@ super + {_,shift + }w
 	bspc node -{c,k}
 
 # focus to the given desktop
-super + {j,k,l,u,i,o}
-	bspc desktop -f '^{1,2,3,4,5,6}'
+super + {_, shift + }{j,k,l,u,i,o}
+	bspc {desktop -f,node -d} '^{1,2,3,4,5,6}'
