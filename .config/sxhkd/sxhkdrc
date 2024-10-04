@@ -10,6 +10,10 @@ super + Return
 super + @space
 	rofi -show drun
 
+# finder
+super + p
+	rofi -show find -modi find:~/.config/rofi/scripts/finder.sh
+
 # browser
 super + h
 	firefox
